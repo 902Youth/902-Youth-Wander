@@ -1,12 +1,12 @@
-@font-face {
+/* @font-face {
   font-family: 'engebrechtre';
   src: url('./engebrechtre_bd.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'engebrechtre', sans-serif;
+  font-family: 'Lilita One', sans-serif;
 }
