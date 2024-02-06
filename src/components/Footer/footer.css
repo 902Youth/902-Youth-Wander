@@ -1,0 +1,36 @@
+.footer {
+  font-family: sans-serif;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.f-links > p, .f-links > a {
+  width: 150px;
+  height: auto;
+  margin: auto 1%;
+  text-align: center;
+  color: black;
+}
+
+.address {
+  text-align: center;
+}
+
+.legal {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .f-links {
+    flex-direction: column;
+  }
+}

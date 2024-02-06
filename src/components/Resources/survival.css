@@ -1,0 +1,74 @@
+.mobileScreen {
+  display: none;
+}
+
+.survival {
+  background-image: url('trees.png');
+  height: 100vh;
+  background-repeat: none;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1.25fr .75fr;
+}
+
+.sign {
+  margin: 0;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  background-color: #F8C25B;
+  padding: 1% 5%;
+  box-shadow: 5px 6px 0px #F87B19;
+  border: 2px solid black;
+}
+
+.sign > h2 {
+  font-family: sans-serif;
+}
+
+.page-links {
+  grid-column: 2/3;
+  margin-top: 20%;
+  margin-left: 100px;
+}
+
+.small-sign {
+  width: 200px;
+  background-color: #EA9D63;
+  padding: 4%;
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid black;
+  box-shadow: -5px -5px 0px #F25E07;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .survival {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sign {
+    position: static;
+    top: auto;
+    left: auto;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .page-links {
+    margin: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .small-sign {
+    padding: 8%;
+
+  }
+
+}
