@@ -17,7 +17,7 @@ const MobileScreen = () => {
   return (
     <div className="responsive-nav">
       <span className="left-corner">
-        <Link to="/902-youth-wander">
+        <Link to="/902-Youth-Wander">
           <img
             className="logo"
             src={logo}

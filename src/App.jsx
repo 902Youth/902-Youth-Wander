@@ -17,7 +17,7 @@ function App() {
     <>
     <Nav  />
      <Routes>
-      <Route path='/902-youth-wander' element={<Home />}/>
+      <Route path='/902-Youth-Wander' element={<Home />}/>
       <Route path='/about' element={<About />} />
       <Route path='/resources' element={<Survival />} />
       <Route path='/first-aid' element={<FirstAid />}/>
