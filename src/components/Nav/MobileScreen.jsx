@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { List, ArrowLeft } from "@phosphor-icons/react";
+import logo from './wander-logo.png'
 import "./nav.css";
 
 const MobileScreen = () => {
@@ -19,7 +20,7 @@ const MobileScreen = () => {
         <Link to="/">
           <img
             className="logo"
-            src="wander-logo.png"
+            src={logo}
             alt="black 902 Youth logo with a green and grey dotted background"
           />
         </Link>

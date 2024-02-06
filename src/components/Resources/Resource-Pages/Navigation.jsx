@@ -3,6 +3,8 @@ import pdf1 from '/compass.pdf'
 import pdf2 from '/natural.pdf'
 import pdf3 from '/topographical.pdf'
 import pdf4 from '/trail-markers.pdf'
+import sign from './na-sign-image.png'
+import otherImage from './na-image.png'
 import "./navigation.css";
 
 const Navigation = () => {
@@ -40,7 +42,7 @@ const Navigation = () => {
       </section>
       <section className="na-two">
         <div className="sign-container">
-          <img className="sign-post" src="/na-sign-image.png" alt="Red and yellow signs pointing east, then west, alternating. They are attached to a blue wooden post" />
+          <img className="sign-post" src={sign} alt="Red and yellow signs pointing east, then west, alternating. They are attached to a blue wooden post" />
           {pdfArr.map((item, index) => (
             <span key={index} className="na-sign-cards">
               <h4 className={`sign-${index}`} onClick={() => handleClick(index)}>{item}</h4>
@@ -49,7 +51,7 @@ const Navigation = () => {
         </div>
         <img
           className="na-image"
-          src="/na-image.png"
+          src={otherImage}
           alt="Cartoon warthog standing up-right and backpacking with a red backpack and walking stick"
         />
       </section>

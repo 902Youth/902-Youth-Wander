@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import logo from './wander-logo.png'
 import "./nav.css";
 
 
@@ -10,7 +11,7 @@ const RegScreen = () => {
       <Link to="/">
         <img
           className="logo"
-          src="wander-logo.png"
+          src={logo}
           alt="black 902 Youth logo with a green and grey dotted background"
         />
       </Link>

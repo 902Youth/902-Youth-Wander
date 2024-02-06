@@ -5,6 +5,7 @@ import pdf3 from '/Campfire/collecting-wood.pdf'
 import pdf4 from '/Campfire/structuring.pdf'
 import pdf5 from '/Campfire/maintaining.pdf'
 import pdf6 from '/Campfire/extinguishing.pdf'
+import campfire from './bear-campfire.png'
 import "./campfire.css";
 
 const Campfire = () => {
@@ -58,7 +59,7 @@ const Campfire = () => {
       <section className="cf-one">
         <h1>Campfires take more effort than one would expect...</h1>
         <img className="campfire-clipart"
-          src="/Campfire/bear-campfire.png"
+          src={campfire}
           alt="cartoon black bear roasting a marshmallow over a campfire. The campfire has a smiley face."
         />
       </section>
