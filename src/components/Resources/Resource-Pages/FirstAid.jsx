@@ -5,6 +5,7 @@ import pdf3 from '/FirstAid/general-care.pdf'
 import pdf4 from '/FirstAid/ext-prepared.pdf'
 import pdf5 from '/FirstAid/beyond.pdf'
 import pdf6 from '/FirstAid/doctor.pdf'
+import firstAidKit from './first-aid.png'
 import "./firstAid.css";
 
 const FirstAid = () => {
@@ -73,7 +74,7 @@ const FirstAid = () => {
           consider for each one.
         </p>
         <img className='first-aid-clipart'
-          src="/FirstAid/first-aid.png"
+          src={firstAidKit}
           alt="stylized drawing of a first aid kit, nose spray, scissors, pills, tape, thermometer, pill bottle, and a bandaid"
         />
       </section>
