@@ -23,11 +23,11 @@ const ResourceSection = () => {
       <h2 className='hr-titles top'>Free, printable resources</h2>
       <section>
       <div className="card one" onClick={handlePDF1}>
-        <img src="/hr-backpack.png" alt="A pink hiking backpack with a yellow sleeping bag rolled up and strapped to the top." className='backpack' />
+        <img src="./hr-backpack.png" alt="A pink hiking backpack with a yellow sleeping bag rolled up and strapped to the top." className='backpack' />
         <h4 className='hr-titles grid-text'>Whether you're hiking, skiing, or floating the river, here's what you should bring for different outdoor activities!</h4>
       </div>
       <div className="card two" onClick={handlePDF2}>
-        <img src="/hr-kit.png" alt="A brown rectangular survival kit with rope, a compass, fire starter, a clip, band-aids, and a whistle." className='kit' />
+        <img src="./hr-kit.png" alt="A brown rectangular survival kit with rope, a compass, fire starter, a clip, band-aids, and a whistle." className='kit' />
         <h4 className='hr-titles grid-text'>Let's make sure you have everything you need in your survival kit!</h4>
       </div>
       </section>

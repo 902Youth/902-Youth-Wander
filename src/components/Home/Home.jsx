@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router";
-import "./home.css";
 import ResourceSection from "./ResourceSection";
+import "./home.css";
 
 const Home = () => {
   const navigate = useNavigate();
