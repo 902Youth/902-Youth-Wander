@@ -18,7 +18,7 @@ const Footer = () => {
       <a href="https://www.902youth.com/" target="_blank">902 Youth Website</a>
       </span>
       <span className="address">
-        <p>186 Alewife Brook Pkwy #1157, Cambridge, MA 02138</p>
+        <p>Mailing address: 186 Alewife Brook Pkwy #1157, Cambridge, MA 02138</p>
         <p>info@902youth.com</p>
         <p>+1 (617) 256-1427</p>
       </span>
