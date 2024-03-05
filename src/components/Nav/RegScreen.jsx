@@ -8,7 +8,7 @@ const RegScreen = () => {
   return (
     <div className="navigation">
     <span className="left-corner">
-      <Link to="/902-Youth-Wander">
+      <Link to="/">
         <img
           className="logo"
           src={logo}
